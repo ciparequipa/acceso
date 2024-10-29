@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class FHPERTAR extends Model
 {
     protected $table = "FHPERTAR";
+    public $timestamps = false;
     protected $fillable = [
         "v_codper",
         "v_codcom",
