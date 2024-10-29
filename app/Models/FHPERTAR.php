@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class FHPERTAR extends Model
 {
+    protected $table = "FHPERTAR";
     protected $fillable = [
         "v_codper",
         "v_codcom",

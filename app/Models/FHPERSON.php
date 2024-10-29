@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class FHPERSON extends Model
 {
+    protected $table = "FHPERSON";
     protected $fillable = [
         "v_codper",
         "v_codcom",
